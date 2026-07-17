@@ -1,0 +1,37 @@
+{
+  "name": "duoexchange",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "seed": "node --no-warnings scripts/seed.mjs"
+  },
+  "dependencies": {
+    "20": "^1.0.0",
+    "again": "^0.0.1",
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.2",
+    "cmdk": "^1.1.1",
+    "dotenv": "^17.4.2",
+    "formidable": "^3.5.4",
+    "framer-motion": "^12.42.2",
+    "install": "^0.13.0",
+    "jquery": "^3.7.1",
+    "jsonwebtoken": "^9.0.2",
+    "jwt-decode": "^4.0.0",
+    "lucide-react": "^0.543.0",
+    "mongoose": "^9.7.3",
+    "next": "^15.5.4",
+    "next-pwa": "^5.6.0",
+    "nodemailer": "^7.0.6",
+    "owl.carousel": "^2.3.4",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-hot-toast": "^2.6.0",
+    "react-slick": "^0.31.0",
+    "slick-carousel": "^1.8.1"
+  }
+}

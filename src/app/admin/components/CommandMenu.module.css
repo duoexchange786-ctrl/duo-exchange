@@ -1,0 +1,75 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  z-index: 9999;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 10vh;
+}
+
+.modal {
+  width: 100%;
+  max-width: 640px;
+  background: #13151f;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  box-shadow: 0 16px 70px rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+}
+
+.modal :global([cmdk-input]) {
+  width: 100%;
+  font-size: 16px;
+  padding: 16px;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+  background: transparent;
+  color: #f0f2ff;
+  outline: none;
+}
+
+.modal :global([cmdk-input])::placeholder {
+  color: #636b80;
+}
+
+.modal :global([cmdk-list]) {
+  max-height: 400px;
+  overflow: auto;
+  padding: 8px;
+}
+
+.modal :global([cmdk-group-heading]) {
+  padding: 8px 12px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #a0aec0;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.modal :global([cmdk-item]) {
+  padding: 12px;
+  font-size: 14px;
+  color: #f0f2ff;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.modal :global([cmdk-item][data-selected="true"]),
+.modal :global([cmdk-item]:hover) {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.modal :global([cmdk-empty]) {
+  padding: 24px;
+  text-align: center;
+  color: #636b80;
+  font-size: 14px;
+}
