@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "app.netlify.duoexchange.twa",
+        "sha256_cert_fingerprints": ["7E:E9:40:62:C4:8C:60:40:44:0D:34:26:5A:83:A2:8E:FF:84:1F:FE:90:AC:50:13:7F:1E:85:3C:A2:9A:3A:5C"]
+      }
+    }]

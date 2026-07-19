@@ -97,7 +97,7 @@ export default function Index() {
               </div>
 
               <Link
-                href="duoexchange.apk"
+                href="DuoExchange.apk"
                 className="downloadbutton"
                 download
               >
