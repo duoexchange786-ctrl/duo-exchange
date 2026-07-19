@@ -24,6 +24,10 @@ export const metadata = {
   }
 };
 
+export const viewport = {
+  themeColor: "#ffffff",
+};
+
 export default function Layout({ children }) {
   return (
     <html lang="en">
