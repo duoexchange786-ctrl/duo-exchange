@@ -10,7 +10,7 @@ async function getCurrentUser(req) {
 
   const token = authHeader.split(' ')[1];
   try {
-    const payload = jwt.verify(token, process.env.JWT_SECRET);
+    const payload = jwt.verify(token, process.env.JWT_SECRET || 'your-secret-key');
     await dbConnect();
     const user = await User.findById(payload.id);
     return user || null;

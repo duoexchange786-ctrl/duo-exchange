@@ -189,14 +189,14 @@ export default function DepositAmount() {
             <div className="brdc">
               <div className="back-btn">
                 <Link href="/exchange">
-                  <img src="images/back-btn.png" />
+                  <img src="/images/back-btn.png" />
                 </Link>
               </div>
               <h3>Deposit USDT</h3>
             </div>
             <div className="right d-flex">
-              <img src="images/gray-warn.png" />
-              <img src="images/undo.png" />
+              <img src="/images/gray-warn.png" />
+              <img src="/images/undo.png" />
             </div>
           </header>
 
@@ -288,7 +288,7 @@ export default function DepositAmount() {
                 <div className="rw">
                   <p className="title">Deposit Amount</p>
                   <div className="amt">
-                    <img src="images/uic.png" className="icon" />{" "}
+                    <img src="/images/uic.png" className="icon" />{" "}
                     <h3>{amount}</h3>
                   </div>
                 </div>
@@ -302,14 +302,14 @@ export default function DepositAmount() {
                       onClick={() => handleCopy(depositAddresses[network])}
                       style={{ cursor: "pointer" }}
                     >
-                      <img src="images/copy.png" className="icon" />
+                      <img src="/images/copy.png" className="icon" />
                     </span>
                   </div>
                 </div>
 
               <div className="warning" style={{ margin: "7px 0" }}>
                 <div className="inside">
-                  <img src="images/warn.png" className="icon" />A Only support{" "}
+                  <img src="/images/warn.png" className="icon" />A Only support{" "}
                   <span className="red">{network}-USDT</span>, Any losses
                   caused by your improper operation will be borne by yourself.
                   Please operate with caution and double-check the recharge
@@ -326,7 +326,7 @@ export default function DepositAmount() {
                     onClick={() => handleCopy(depositId)}
                     style={{ cursor: "pointer" }}
                   >
-                    <img src="images/copy.png" className="icon" />
+                    <img src="/images/copy.png" className="icon" />
                   </span>
                 </div>
               </div>

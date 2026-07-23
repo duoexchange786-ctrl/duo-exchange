@@ -12,7 +12,7 @@ export async function POST(req) {
     const token = authHeader.split(' ')[1];
     let payload;
     try {
-      payload = jwt.verify(token, process.env.JWT_SECRET);
+      payload = jwt.verify(token, process.env.JWT_SECRET || 'your-secret-key');
     } catch (err) {
       return new Response(JSON.stringify({ error: 'Invalid token' }), { status: 401 });
     }

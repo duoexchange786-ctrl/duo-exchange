@@ -17,14 +17,14 @@ export default function DemoPage() {
     <div className="brdc">
       <div className="back-btn">
         <Link href="/home">
-          <img src="images/back-btn.png" />
+          <img src="/images/back-btn.png" />
         </Link>
       </div>
       <h3>Page Title</h3>
     </div>
     <section className="section-1">
       <div className="image">
-        <img src="images/empty.jpg" />
+        <img src="/images/empty.jpg" />
       </div>
     </section>
   </div>

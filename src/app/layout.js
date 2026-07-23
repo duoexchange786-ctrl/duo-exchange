@@ -67,7 +67,6 @@ export default function Layout({ children }) {
           `}
         </Script>
 
-
         <LayoutClient>{children}</LayoutClient>
 
         {/* JS Libraries */}

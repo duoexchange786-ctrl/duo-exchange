@@ -16,6 +16,10 @@ export async function POST(req) {
     const otp = generateOtp();
     const otpExpiry = new Date(Date.now() + 5 * 60 * 1000); // 5 min expiry
 
+    if (process.env.NODE_ENV !== 'production') {
+      console.log(`\n\n[DEV MODE] 🔐 OTP for ${email}: ${otp}\n\n`);
+    }
+
     await dbConnect();
 
     // Check if user already exists (to know if we need a referral code)
@@ -47,7 +51,14 @@ export async function POST(req) {
       await sendEmail(email, otp);
     } catch (emailError) {
       console.error('Email sending failed:', emailError);
-      return new Response(JSON.stringify({ error: 'Failed to send OTP email' }), { status: 500 });
+      
+      // In development mode, don't fail the request if email sending fails.
+      // This allows testing the flow using the OTP logged to the console.
+      if (process.env.NODE_ENV === 'production') {
+        return new Response(JSON.stringify({ error: 'Failed to send OTP email' }), { status: 500 });
+      } else {
+        console.warn('⚠️ Bypassed email sending failure in development mode.');
+      }
     }
 
     return new Response(JSON.stringify({ message: 'OTP sent to your email' }), { status: 200 });

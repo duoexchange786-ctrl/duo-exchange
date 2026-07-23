@@ -68,7 +68,7 @@ export default function HomePage() {
           <header className="header" style={{ position: "relative" }}>
             <div className="left"></div>
             <div className="right">
-              { /* <img src="image/24-hours-support.png" /> */}
+              { /* <img src="/image/24-hours-support.png" /> */}
               <a href="https://t.me/duoexchange">
                 <Image
                   src="/image/customer-care-icon1.png"
@@ -92,7 +92,7 @@ export default function HomePage() {
             <section className="section-1">
               <div className="userpro">
                 <div className="pic">
-                  <img src="image/user-pic1.png" />
+                  <img src="/image/user-pic1.png" />
                 </div>
                 <h3>{user?.mobile ? `+91 ${user.mobile}` : "+91 ******"}</h3>
               </div>
@@ -120,7 +120,7 @@ export default function HomePage() {
                 <div className="top">
                   <div className="lefts">
                     <div className="lf">
-                      <img src="image/xicon1.png" />
+                      <img src="/image/xicon1.png" />
                     </div>
                     <div className="rf">
                       <p className="ttl">
@@ -128,7 +128,7 @@ export default function HomePage() {
                       </p>
                       <p>
                         <span>1PAYX = 0.010750 USDT</span>
-                        <img src="images/ques.png" className="inq" />
+                        <img src="/images/ques.png" className="inq" />
                       </p>
                     </div>
                   </div>
@@ -158,7 +158,7 @@ export default function HomePage() {
                 </div>
                 <div className="mid">
                   <p className="ttl">
-                    Reward <img src="image/xicon1.png" />
+                    Reward <img src="/image/xicon1.png" />
                   </p>
                   <p>
                     <b>0</b>
@@ -177,11 +177,11 @@ export default function HomePage() {
                   <Link href="/referals">
                     <div className="image">
                       <h3>
-                        <img src="image/ref-icon1.png" /> Referrals
+                        <img src="/image/ref-icon1.png" /> Referrals
                       </h3>
                     </div>
                     <div className="arw">
-                      <img src="images/right-arw.png" />
+                      <img src="/images/right-arw.png" />
                     </div>
                   </Link>
                 </div>
@@ -189,11 +189,11 @@ export default function HomePage() {
                   <Link href="/history">
                     <div className="image">
                       <h3>
-                        <img src="image/ref-icon2.png" /> Exchange History
+                        <img src="/image/ref-icon2.png" /> Exchange History
                       </h3>
                     </div>
                     <div className="arw">
-                      <img src="images/right-arw.png" />
+                      <img src="/images/right-arw.png" />
                     </div>
                   </Link>
                 </div>
@@ -201,11 +201,11 @@ export default function HomePage() {
                   <Link href="/statements">
                     <div className="image">
                       <h3>
-                        <img src="image/ref-icon3.png" /> Statement
+                        <img src="/image/ref-icon3.png" /> Statement
                       </h3>
                     </div>
                     <div className="arw">
-                      <img src="images/right-arw.png" />
+                      <img src="/images/right-arw.png" />
                     </div>
                   </Link>
                 </div>
@@ -213,11 +213,11 @@ export default function HomePage() {
                   <Link href="/bank">
                     <div className="image">
                       <h3>
-                        <img src="image/ref-icon4.png" /> Bank Account
+                        <img src="/image/ref-icon4.png" /> Bank Account
                       </h3>
                     </div>
                     <div className="arw">
-                      <img src="images/right-arw.png" />
+                      <img src="/images/right-arw.png" />
                     </div>
                   </Link>
                 </div>
@@ -225,11 +225,11 @@ export default function HomePage() {
                   <Link href="/invite">
                     <div className="image">
                       <h3>
-                        <img src="image/ref-icon5.png" /> Invited Friends
+                        <img src="/image/ref-icon5.png" /> Invited Friends
                       </h3>
                     </div>
                     <div className="arw">
-                      <img src="images/right-arw.png" />
+                      <img src="/images/right-arw.png" />
                     </div>
                   </Link>
                 </div>

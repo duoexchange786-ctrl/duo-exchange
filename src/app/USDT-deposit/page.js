@@ -83,14 +83,14 @@ export default function USDTDeposit() {
             <div className="brdc">
               <div className="back-btn">
                 <Link href="/exchange">
-                  <img src="images/back-btn.png" />
+                  <img src="/images/back-btn.png" />
                 </Link>
               </div>
               <h3>Deposit USDT</h3>
             </div>
             <div className="right">
               <Link href="/deposit-history">
-                <img src="images/undo.png" />
+                <img src="/images/undo.png" />
               </Link>
             </div>
           </header>
@@ -98,10 +98,10 @@ export default function USDTDeposit() {
           <div className="page-wrapperss">
             <section className="section-1" style={{paddingTop: '37px'}}>
               <div className="bnr">
-                <img src="images/top-bnr.png" style={{ width: "100%", float: "left" }} />
+                <img src="/images/top-bnr.png" style={{ width: "100%", float: "left" }} />
               </div>
               <div className="btmbnr">
-                <img src="images/recharge-top-bg.png" style={{ width: "100%" }} />
+                <img src="/images/recharge-top-bg.png" style={{ width: "100%" }} />
               </div>
             </section>
 
@@ -121,8 +121,8 @@ export default function USDTDeposit() {
                         checked={activeTab === 'TRC20'}
                         onChange={() => setActiveTab('TRC20')}
                       />
-                      <img src="images/tb-ic1.png" className="icon" /> TRC20
-                      <img src="image/y-tick.png" className="y-icon" />
+                      <img src="/images/tb-ic1.png" className="icon" /> TRC20
+                      <img src="/image/y-tick.png" className="y-icon" />
                     </div>
 
                     <div
@@ -135,8 +135,8 @@ export default function USDTDeposit() {
                         checked={activeTab === 'ERC20'}
                         onChange={() => setActiveTab('ERC20')}
                       />
-                      <img src="images/tb-ic2.png" className="icon" /> ERC20
-                      <img src="image/y-tick.png" className="y-icon" />
+                      <img src="/images/tb-ic2.png" className="icon" /> ERC20
+                      <img src="/image/y-tick.png" className="y-icon" />
                     </div>
                   </div>
                 </div>
@@ -175,7 +175,7 @@ export default function USDTDeposit() {
                         zIndex:9
                       }}
                     >
-                      <img src="images/uic.png" className="icon" /> USDT
+                      <img src="/images/uic.png" className="icon" /> USDT
                     </div>
 
                    
@@ -219,7 +219,7 @@ export default function USDTDeposit() {
 
             <div className="warning inner-space">
               <div className="inside">
-                <img src="images/warn.png" className="icon" />
+                <img src="/images/warn.png" className="icon" />
                 For the safety of your funds, please note that the recharge address for each order is different. 
                 Please double-check carefully to avoid the risk of irretrievable funds.
               </div>

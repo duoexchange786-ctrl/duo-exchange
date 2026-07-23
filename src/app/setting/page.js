@@ -21,7 +21,7 @@ export default function SettingPage() {
           <header className="header setting-header">
             <div className="left">
               <div className="d-flex">
-                <div className="back-btn"><a href="/login"><img src="images/back-btn.png" /></a></div>
+                <div className="back-btn"><a href="/login"><img src="/images/back-btn.png" /></a></div>
                 <b>Setting</b></div>
             </div>
 
@@ -38,11 +38,11 @@ export default function SettingPage() {
                   <Link href="https://t.me/duoexchange">
                     <div className="image">
                       <h3>
-                        <img src="images/s-icon1n.jpg" /> Customer service
+                        <img src="/images/s-icon1n.jpg" /> Customer service
                       </h3>
                     </div>
                     <div className="arw">
-                      <img src="images/right-arw.png" />
+                      <img src="/images/right-arw.png" />
                     </div>
                   </Link>
                 </div>
@@ -50,11 +50,11 @@ export default function SettingPage() {
                   <Link href="">
                     <div className="image">
                       <h3>
-                        <img src="images/s-icon2n.jpg" /> Business coorperation
+                        <img src="/images/s-icon2n.jpg" /> Business coorperation
                       </h3>
                     </div>
                     <div className="arw">
-                      <img src="images/right-arw.png" />
+                      <img src="/images/right-arw.png" />
                     </div>
                   </Link>
                 </div>
@@ -62,11 +62,11 @@ export default function SettingPage() {
                   <Link href="">
                     <div className="image">
                       <h3>
-                        <img src="images/s-icon3n.jpg" /> Version
+                        <img src="/images/s-icon3n.jpg" /> Version
                       </h3>
                     </div>
                     <div className="arw">
-                      <span style={{ margin: "10px" }}>v3.2.1</span> <img src="images/right-arw.png" />
+                      <span style={{ margin: "10px" }}>v3.2.1</span> <img src="/images/right-arw.png" />
                     </div>
                   </Link>
                 </div>
@@ -74,11 +74,11 @@ export default function SettingPage() {
                   <Link href="https://duoexchange.vercel.app/duoexchange.apk">
                     <div className="image">
                       <h3>
-                        <img src="images/s-icon4n.jpg" /> Intall the official version
+                        <img src="/images/s-icon4n.jpg" /> Intall the official version
                       </h3>
                     </div>
                     <div className="arw">
-                      <img src="images/right-arw.png" />
+                      <img src="/images/right-arw.png" />
                     </div>
                   </Link>
                 </div>

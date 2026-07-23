@@ -12,8 +12,8 @@ export default function Footer() {
             <div className="bx">
                 <Link href="/" className={`tb ${activeTab === 'home' ? 'active' : ''}`} onClick={() => setActiveTab('home')}>
                 <div className="icon">
-                    <img src="images/l-home.png" className="noact" />
-                    <img src="images/d-home.png" className="act" />
+                    <img src="/images/l-home.png" className="noact" />
+                    <img src="/images/d-home.png" className="act" />
                 </div>
                 <p>Home</p>
                 </Link>
@@ -22,8 +22,8 @@ export default function Footer() {
                 <Link href="/exchange" className={`tb ${activeTab === 'exchange' ? 'active' : ''}`}
           onClick={() => setActiveTab('exchange')}>
                 <div className="icon">
-                    <img src="images/l-exchange.png" className="noact" />
-                    <img src="images/d-exchange.png" className="act" />
+                    <img src="/images/l-exchange.png" className="noact" />
+                    <img src="/images/d-exchange.png" className="act" />
                 </div>
                 <p>Exchange</p>
                 </Link>
@@ -32,8 +32,8 @@ export default function Footer() {
                 <Link href="/login" className={`tb ${activeTab === 'mine' ? 'active' : ''}`}
           onClick={() => setActiveTab('mine')}>
                 <div className="icon">
-                    <img src="images/l-mine.png" className="noact" />
-                    <img src="images/d-mine.png" className="act" />
+                    <img src="/images/l-mine.png" className="noact" />
+                    <img src="/images/d-mine.png" className="act" />
                 </div>
                 <p>Mine</p>
                 </Link>

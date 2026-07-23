@@ -375,9 +375,9 @@ export default function Exchange() {
                 <div className="dflex-out">
                   <div className="bx">
                     <div className="dflex">
-                      <img src="images/wazirx.png" />{" "}
+                      <img src="/images/wazirx.png" />{" "}
                       <Link href="https://wazirx.com/" target="_blank">
-                        <img src="images/grn-right-arw.png" />
+                        <img src="/images/grn-right-arw.png" />
                       </Link>
                     </div>
                     <div className="text">
@@ -394,9 +394,9 @@ export default function Exchange() {
                   </div>
                   <div className="bx">
                     <div className="dflex">
-                      <img src="images/binance.png" />{" "}
+                      <img src="/images/binance.png" />{" "}
                       <Link href="https://p2p.binance.com/en/trade/BUY/USDT?fiat=INR&payment=ALL" target="_blank">
-                        <img src="images/grn-right-arw.png" />
+                        <img src="/images/grn-right-arw.png" />
                       </Link>
                     </div>
                     <div className="text">
@@ -423,7 +423,7 @@ export default function Exchange() {
                 <div className="rw">
                   <div className="bx">
                     <div className="image">
-                      <img src="images/mic.png" style={{}} />{" "}
+                      <img src="/images/mic.png" style={{}} />{" "}
                       <h3>
                         <span className="fontt">24/7</span> Support
                       </h3>
@@ -437,7 +437,7 @@ export default function Exchange() {
                   </div>
                   <div className="bx">
                     <div className="image">
-                      <img src="images/card.png" style={{}} />{" "}
+                      <img src="/images/card.png" style={{}} />{" "}
                       <h3>Transaction Free</h3>
                     </div>
                     <div className="info">
@@ -449,7 +449,7 @@ export default function Exchange() {
                   </div>
                   <div className="bx">
                     <div className="image">
-                      <img src="images/money.png" style={{}} />{" "}
+                      <img src="/images/money.png" style={{}} />{" "}
                       <h3>Rich Information</h3>
                     </div>
                     <div className="info">
@@ -461,7 +461,7 @@ export default function Exchange() {
                   </div>
                   <div className="bx">
                     <div className="image">
-                      <img src="images/pro.png" style={{}} />{" "}
+                      <img src="/images/pro.png" style={{}} />{" "}
                       <h3>Reliable Security</h3>
                     </div>
                     <div className="info">

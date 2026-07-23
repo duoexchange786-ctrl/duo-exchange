@@ -88,7 +88,7 @@ export default function DemoPage() {
     <div className="brdc">
       <div className="back-btn">
         <Link href="/home">
-          <img src="images/back-btn.png" />
+          <img src="/images/back-btn.png" />
         </Link>
       </div>
       <h3>Invites
@@ -102,7 +102,7 @@ export default function DemoPage() {
           <p>Each accepted order of your subordinates will get you corresponding rewards</p></div></div>
       </div>
       <div className="image">
-        <img src="images/inv-img.jpg" style={{"width":"100%"}} />
+        <img src="/images/inv-img.jpg" style={{"width":"100%"}} />
       </div>
     </section>
 

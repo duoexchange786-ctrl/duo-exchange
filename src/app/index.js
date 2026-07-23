@@ -215,7 +215,7 @@ export default function Index() {
                 <div className="notify">
                   <div className="lefts">
                     <div className="icon">
-                      <img src="images/notify.png" />
+                      <img src="/images/notify.png" />
                     </div>
                     <div className="spr">|</div>
                     <Slider {...settings1} className="text-sl">
@@ -231,7 +231,7 @@ export default function Index() {
                   </div>
                   <div className="rights">
                     <div className="icon right">
-                      <img src="images/right-arw.png" />
+                      <img src="/images/right-arw.png" />
                     </div>
                   </div>
                 </div>

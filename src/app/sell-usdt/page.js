@@ -190,19 +190,19 @@ export default function AddBank() {
             <div className="brdc">
               <div className="back-btn">
                 <Link href="/exchange">
-                  <img src="images/back-btn.png" />
+                  <img src="/images/back-btn.png" />
                 </Link>
               </div>
               <h3>Exchange</h3>
             </div>
             <div className="right">
-              <img src="images/undo.png" />
+              <img src="/images/undo.png" />
             </div>
           </header>
 
           {/* CONTENT */}
           <div className="page-wrapper page-wrapper-ex">
-             <div className="bnr"><img src="images/top-bnr.png" style={{width: "100%", float: "left"}}/></div>
+             <div className="bnr"><img src="/images/top-bnr.png" style={{width: "100%", float: "left"}}/></div>
             {/* BANK SELECTION */}
             <section className="section-1 text-center">
               <div className="dflex border-btm">
@@ -211,7 +211,7 @@ export default function AddBank() {
                 </p>
                 <div className="image">
                   <Link href="/bank">
-                    <img src="images/add-u-icon.png" className="icon" />
+                    <img src="/images/add-u-icon.png" className="icon" />
                   </Link>
                 </div>
               </div>
@@ -262,7 +262,7 @@ export default function AddBank() {
               ) : (
                 <div className="add-bank">
                   <Link href="/bind-bank-card" className="button-style">
-                    <img src="images/addicon.png" className="icon" /> Add bank account
+                    <img src="/images/addicon.png" className="icon" /> Add bank account
                   </Link>
                 </div>
               )}
@@ -303,7 +303,7 @@ export default function AddBank() {
                         pointerEvents: "none",
                       }}
                     >
-                      <img src="images/uic.png" className="icon" /> USDT
+                      <img src="/images/uic.png" className="icon" /> USDT
                     </div>
 
                     <style jsx>{`
@@ -333,7 +333,7 @@ export default function AddBank() {
                 <div className="dflex avail">
                   <p className="title clrgren" style={{ fontSize: "10px", fontWeight: "600" }}>
                     Available($) {balance}{" "}
-                    <img src="images/uic.png" className="icon" style={{ maxWidth: 13 }} />
+                    <img src="/images/uic.png" className="icon" style={{ maxWidth: 13 }} />
                   </p>
                   <p style={{ fontSize: "11px", fontWeight: "600" }}>1USDT=₹{rate}</p>
                 </div>

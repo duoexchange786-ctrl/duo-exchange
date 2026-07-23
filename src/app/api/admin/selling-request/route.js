@@ -9,7 +9,7 @@ function getUserIdFromToken(req) {
     const token = authHeader.split(" ")[1]; // "Bearer <token>"
     if (!token) return null;
 
-    const decoded = jwt.verify(token, process.env.JWT_SECRET);
+    const decoded = jwt.verify(token, process.env.JWT_SECRET || 'your-secret-key');
     return decoded.id; // assuming JWT payload contains { id: userId }
   } catch (err) {
     console.error("Invalid token:", err);

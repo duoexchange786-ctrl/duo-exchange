@@ -52,7 +52,7 @@ export default function CompleteProfile() {
           <div className="page-wrapperss page-wrapper-login page-wrapper-ex page-wrapper-loginacc form-wrapper">
             <div className="back-btn">
               <Link href="/login">
-                <img src="images/back-btn.png" />
+                <img src="/images/back-btn.png" />
               </Link>
             </div>
             <section className="section-1">
