@@ -59,11 +59,8 @@ export async function POST(req) {
       }
     }
 
-    // Redirect logic: if user doesn't have an MPIN, force them to set it.
-    // Otherwise, check if profile is complete.
-    const redirectTo = !user.mpin 
-      ? '/set-mpin' 
-      : (user.fullName && user.mobile ? '/home' : '/complete-profile');
+    // Redirect logic: always redirect to /home since complete-profile and set-mpin are removed
+    const redirectTo = '/home';
     // Include wallet and token; helpful debug logs
     console.log(`User ${user.email} verified via OTP. Redirecting to ${redirectTo}`);
 

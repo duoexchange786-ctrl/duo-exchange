@@ -62,9 +62,11 @@ export default function LoginPage() {
                 <Link href="/login-account" className="login-btn">
                   Login
                 </Link>
-                <p className="text">
-                  First time login will register new account for you
-                </p>
+                <div style={{ marginTop: '15px' }}>
+                  <Link href="/register" className="login-btn" style={{ backgroundColor: '#fff', color: '#10b981', border: '1px solid #10b981' }}>
+                    Register
+                  </Link>
+                </div>
               </div>
             </section>
           </div>

@@ -94,12 +94,16 @@ function LoginAccountContent() {
       });
       const data = await res.json();
       if (res.ok) {
-        if (data.exists && data.hasMpin) {
-          setStep('mpin');
-          setTimeout(() => mpinRefs.current[0]?.focus(), 100);
+        if (data.exists) {
+          if (data.hasMpin) {
+            setStep('mpin');
+            setTimeout(() => mpinRefs.current[0]?.focus(), 100);
+          } else {
+            setStep('otp');
+            handleSendOtp(true); // auto send OTP
+          }
         } else {
-          setStep('otp');
-          handleSendOtp(true); // auto send OTP
+          router.push('/register');
         }
       } else {
         setError(data.error || 'Failed to verify email');
